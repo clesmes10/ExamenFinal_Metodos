@@ -4,7 +4,9 @@
 import numpy as np
 
 x = np.int_(np.random.random(100)*1000)
-print(x)
+for i in x:
+    if(i%2 !=0 and i<801):
+        print(x)
 
 
 
